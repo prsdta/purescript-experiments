@@ -1,5 +1,6 @@
+module Htdp.PartThree where
 
 import Prelude
 
-import Effect (Effect)
-import Effect.Console (log)
+add1 :: Array Int -> Array Int
+add1 = map ((+) 1)
